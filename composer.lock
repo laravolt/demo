@@ -2767,12 +2767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravolt/laravolt.git",
-                "reference": "5ace11279ef152248ec33095e1cece87e59569e5"
+                "reference": "4f4821a7f485944a589ad9fabbd1f983e67ea315"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravolt/laravolt/zipball/5ace11279ef152248ec33095e1cece87e59569e5",
-                "reference": "5ace11279ef152248ec33095e1cece87e59569e5",
+                "url": "https://api.github.com/repos/laravolt/laravolt/zipball/4f4821a7f485944a589ad9fabbd1f983e67ea315",
+                "reference": "4f4821a7f485944a589ad9fabbd1f983e67ea315",
                 "shasum": ""
             },
             "require": {
