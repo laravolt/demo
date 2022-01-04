@@ -13,7 +13,6 @@
 1. Jalankan 'php artisan key:generate'
 1. Jalankan 'php artisan migrate:fresh --seed'
 1. Jalankan 'php artisan storage:link'
-1. Jalankan 'php artisan laravolt:link'
 1. Pastikan folder-folder berikut _writeable_:
     1. bootstrap/cache
     1. storage
