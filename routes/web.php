@@ -13,3 +13,6 @@ Route::middleware(['auth', 'verified'])
 
 include __DIR__.'/auth.php';
 include __DIR__.'/my.php';
+
+
+\Illuminate\Support\Facades\Route::view('integration/react', 'integration.react');
