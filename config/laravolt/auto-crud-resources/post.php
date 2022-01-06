@@ -11,6 +11,7 @@ return [
             'placeholder' => 'Pilih Topic',
             'query' => 'select id, name from topic',
             'rules' => ['required'],
+            'show_on_index' => false,
         ],
         [
             'name' => 'title',
