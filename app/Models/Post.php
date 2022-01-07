@@ -20,10 +20,7 @@ class Post extends Model
         static::creating(function (Model $model) {
                 $model->writer_id = auth()->id();
         });
-
-        static::updating(function (Model $model) {
-            $model->writer_id = auth()->id();
-        });
+        
     }
 
 }
