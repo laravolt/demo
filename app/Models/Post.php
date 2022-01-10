@@ -20,7 +20,22 @@ class Post extends Model
         static::creating(function (Model $model) {
                 $model->writer_id = auth()->id();
         });
-        
+
+    }
+
+    public function topic()
+    {
+        return $this->belongsTo(Topic::class, 'topic_id');
+    }
+
+    public function writer()
+    {
+        return $this->belongsTo(Writer::class, 'writer_id');
+    }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class, 'post_id','id');
     }
 
 }
